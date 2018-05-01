@@ -24,6 +24,17 @@
 | ![Light gray swatch](src/images/colors/gray-light.svg) | Light Gray |
 | ![Dark red swatch](src/images/colors/red-dark.svg) | Dark Red |
 | ![Red swatch](src/images/colors/red.svg) | Red |
+| ![Pink swatch](src/images/colors/pink.svg) | Pink |
+| ![Orange swatch](src/images/colors/orange.svg) | Orange |
+| ![Yellow swatch](src/images/colors/yellow.svg) | Yellow |
+| ![Green swatch](src/images/colors/green.svg) | Green |
+| ![Lime green swatch](src/images/colors/green-lime.svg) | Lime Green |
+| ![Navy blue swatch](src/images/colors/blue-navy.svg) | Navy Blue |
+| ![Medium blue swatch](src/images/colors/blue-medium.svg) | Medium Blue |
+| ![Cobalt blue swatch](src/images/colors/blue-cobalt.svg) | Cobalt Blue |
+| ![Light blue swatch](src/images/colors/blue-light.svg) | Light Blue |
+| ![Grape swatch](src/images/colors/grape.svg) | Grape |
+| ![Violet swatch](src/images/colors/violet.svg) | Violet |
 
 ```scss
 // SCSS Color Variables
