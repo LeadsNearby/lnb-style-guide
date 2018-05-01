@@ -2,15 +2,72 @@
 
 ## Contents
 
+* [Colors](#colors)
 * [Elements](#elements)
     * [Typography](#typography)
         * [Headings](#headings)
         * [Body](#body)
-    * Buttons
-    * Custom Fusion Elements
-    * Fusion Element Modifications
+    * [Buttons](#buttons)
+    * [Icons](#icons)
+    * [Custom Fusion Elements](#custom-fusion-elements)
+    * [Fusion Element Modifications](#fusion-element-modifications)
     * [Nearby Now Widget](#nearby-now-widget)
-* Layouts
+* [Layouts](#layouts)
+
+## Colors
+
+<img src="src/images/colors/gray-dark.svg" style="vertical-align: middle" /> Dark Gray
+
+<img src="src/images/colors/gray-medium.svg" style="vertical-align: middle" /> Medium Gray
+
+<img src="src/images/colors/gray.svg" style="vertical-align: middle" /> Gray
+
+<img src="src/images/colors/red.svg" style="vertical-align: middle" /> Red
+
+```scss
+// SCSS Color Variables
+$gray-dark: #1a1a1a;
+$gray-medium: #333;
+$gray: #4c5264;
+$gray-light: #efefef;
+$red-dark: #a01d20;
+$red: #f43127;
+$pink: #f62459;
+$orange: #ff6a2b;
+$yellow: #ffd058;
+$green: #00972f;
+$green-lime: #94cc61;
+$blue-navy: #1e2b43;
+$blue-medium: #004983;
+$blue-cobalt: #006ada;
+$blue-light: #aec6d8;
+$grape: #a338c4;
+$violet: #9a88c5;
+```
+
+```css
+/* CSS Color Variables */
+:root {
+    --color-gray-dark: #1a1a1a;
+    --color-gray-medium: #333;
+    --color-gray: #4c5264;
+    --color-gray-light: #efefef;
+    --color-red-dark: #a01d20;
+    --color-red: #f43127;
+    --color-pink: #f62459;
+    --color-orange: #ff6a2b;
+    --color-yellow: #ffd058;
+    --color-green: #00972f;
+    --color-green-lime: #94cc61;
+    --color-blue-navy: #1e2b43;
+    --color-blue-medium: #004983;
+    --color-blue-cobalt: #006ada;
+    --color-blue-light: #aec6d8;
+    --color-grape: #a338c4;
+    --color-violet: #9a88c5;
+}
+```
+
 
 ## Elements
 
@@ -68,9 +125,17 @@ p {
 }
 ```
 
+### Buttons
+
+### Icons
+
+### Custom Fusion Elements
+
+### Fusion Element Modifications
+
 ### Nearby Now Widget
 
-See [plugin repository](https://github.com/LeadsNearby/lnb-nn-integration#nearby-now-stynamic-widget) for more detailed information. Example widget code is pasted below for reference and to show the structure of the HTML and styling is designed to be easy to modify.
+The Nearby Now widget element is bundled in the lnb-nn-integration Wordpress plugin. See [plugin repository](https://github.com/LeadsNearby/lnb-nn-integration#nearby-now-stynamic-widget) for more detailed information. Example widget code is pasted below for reference and to show the structure of the HTML and styling is designed to be easy to modify.
 
 ```html
 <div class="lnbReviewsWidget lnbReviewsWidget--block" style="--accent-color:#000;--stars-color:#fee300;">
@@ -81,3 +146,5 @@ See [plugin repository](https://github.com/LeadsNearby/lnb-nn-integration#nearby
     <span class="lnbReviewsWidget__data">Rated 5.0 out of 15,000 reviews</span>
 </div>
 ```
+
+## Layouts
