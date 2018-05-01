@@ -16,13 +16,14 @@
 
 ## Colors
 
-<img src="src/images/colors/gray-dark.svg" style="vertical-align: middle" /> Dark Gray
-
-<img src="src/images/colors/gray-medium.svg" style="vertical-align: middle" /> Medium Gray
-
-<img src="src/images/colors/gray.svg" style="vertical-align: middle" /> Gray
-
-<img src="src/images/colors/red.svg" style="vertical-align: middle" /> Red
+| | Name |
+|-|------|
+| ![Dark gray swatch](src/images/colors/gray-dark.svg) | Dark Gray |
+| ![Medium gray swatch](src/images/colors/gray-medium.svg) | Medium Gray |
+| ![Gray swatch](src/images/colors/gray.svg) | Gray |
+| ![Light gray swatch](src/images/colors/gray-light.svg) | Light Gray |
+| ![Dark red swatch](src/images/colors/red-dark.svg) | Dark Red |
+| ![Red swatch](src/images/colors/red.svg) | Red |
 
 ```scss
 // SCSS Color Variables
