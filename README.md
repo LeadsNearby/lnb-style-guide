@@ -17,36 +17,37 @@
 ## Colors
 
 ### Brand Colors
-| | Name |
-|-|------|
-| ![LeadsNearby yellow swatch](src/images/colors/yellow-lnb.svg) | Yellow |
+| | Name | Hex Code |
+|-|------|----------|
+| ![LeadsNearby yellow swatch](src/images/colors/yellow-lnb.svg) | Yellow | #ffa400
 
 ### Reference Colors
 
-| | Name |
-|-|------|
-| ![Black swatch](src/images/colors/black.svg) | Black |
-| ![Dark gray swatch](src/images/colors/gray-dark.svg) | Dark Gray |
-| ![Medium gray swatch](src/images/colors/gray-medium.svg) | Medium Gray |
-| ![Gray swatch](src/images/colors/gray.svg) | Gray |
-| ![Light gray swatch](src/images/colors/gray-light.svg) | Light Gray |
-| ![Lightest gray swatch](src/images/colors/gray-lightest.svg) | Lightest Gray |
-| ![Dark red swatch](src/images/colors/red-dark.svg) | Dark Red |
-| ![Red swatch](src/images/colors/red.svg) | Red |
-| ![Pink swatch](src/images/colors/pink.svg) | Pink |
-| ![Orange swatch](src/images/colors/orange.svg) | Orange |
-| ![Yellow swatch](src/images/colors/yellow.svg) | Yellow |
-| ![Green swatch](src/images/colors/green.svg) | Green |
-| ![Lime green swatch](src/images/colors/green-lime.svg) | Lime Green |
-| ![Navy blue swatch](src/images/colors/blue-navy.svg) | Navy Blue |
-| ![Medium blue swatch](src/images/colors/blue-medium.svg) | Medium Blue |
-| ![Cobalt blue swatch](src/images/colors/blue-cobalt.svg) | Cobalt Blue |
-| ![Light blue swatch](src/images/colors/blue-light.svg) | Light Blue |
-| ![Grape swatch](src/images/colors/grape.svg) | Grape |
-| ![Violet swatch](src/images/colors/violet.svg) | Violet |
+| | Name | Hex Code |
+|-|------|----------|
+| ![Black swatch](src/images/colors/black.svg) | Black | #000000
+| ![Dark gray swatch](src/images/colors/gray-dark.svg) | Dark Gray | #1a1a1a
+| ![Medium gray swatch](src/images/colors/gray-medium.svg) | Medium Gray | #333333
+| ![Gray swatch](src/images/colors/gray.svg) | Gray | #cccccc
+| ![Light gray swatch](src/images/colors/gray-light.svg) | Light Gray | #e5e5e5
+| ![Lightest gray swatch](src/images/colors/gray-lightest.svg) | Lightest Gray | #efefef
+| ![Dark red swatch](src/images/colors/red-dark.svg) | Dark Red | #a01d20
+| ![Red swatch](src/images/colors/red.svg) | Red | #f43127
+| ![Pink swatch](src/images/colors/pink.svg) | Pink | #f62459
+| ![Orange swatch](src/images/colors/orange.svg) | Orange | #ff6a2b
+| ![Yellow swatch](src/images/colors/yellow.svg) | Yellow | #ffd058
+| ![Green swatch](src/images/colors/green.svg) | Green | #00972f
+| ![Lime green swatch](src/images/colors/green-lime.svg) | Lime Green | #94cc61
+| ![Navy blue swatch](src/images/colors/blue-navy.svg) | Navy Blue | #1e2b43
+| ![Medium blue swatch](src/images/colors/blue-medium.svg) | Medium Blue | #004983
+| ![Cobalt blue swatch](src/images/colors/blue-cobalt.svg) | Cobalt Blue | #006ada
+| ![Light blue swatch](src/images/colors/blue-light.svg) | Light Blue | #aec6d8
+| ![Grape swatch](src/images/colors/grape.svg) | Grape | #a338c4
+| ![Violet swatch](src/images/colors/violet.svg) | Violet | #9a88c5
 
 ```scss
 // SCSS Color Variables
+$yellow-lnb: #ffa400;
 $black: #000000;
 $gray-dark: #1a1a1a;
 $gray-medium: #333;
@@ -71,11 +72,13 @@ $violet: #9a88c5;
 ```css
 /* CSS Color Variables */
 :root {
+    --color-yellow-lnb: #ffa400;
     --color-black: #000000;
     --color-gray-dark: #1a1a1a;
     --color-gray-medium: #333;
     --color-gray: #ccc;
-    --color-gray-light: #efefef;
+    --color-gray-light: #e5e5e5;
+    --color-gray-lightest: #efefef;
     --color-red-dark: #a01d20;
     --color-red: #f43127;
     --color-pink: #f62459;
@@ -91,7 +94,6 @@ $violet: #9a88c5;
     --color-violet: #9a88c5;
 }
 ```
-
 
 ## Elements
 
@@ -154,6 +156,19 @@ p {
 ### Icons
 
 ### Custom Fusion Elements
+
+#### Custom Image Frame
+
+**Options**
+
+**Examples**
+
+![Custom image frame example](src/images/screenshots/custom-image-frame-example-0.png)
+
+```scss
+```
+
+[Source Code](src/scss/parts/_image-frame.scss)
 
 ### Fusion Element Modifications
 
