@@ -16,12 +16,21 @@
 
 ## Colors
 
+### Brand Colors
 | | Name |
 |-|------|
+| ![LeadsNearby yellow swatch](src/images/colors/yellow-lnb.svg) | Yellow |
+
+### Reference Colors
+
+| | Name |
+|-|------|
+| ![Black swatch](src/images/colors/black.svg) | Black |
 | ![Dark gray swatch](src/images/colors/gray-dark.svg) | Dark Gray |
 | ![Medium gray swatch](src/images/colors/gray-medium.svg) | Medium Gray |
 | ![Gray swatch](src/images/colors/gray.svg) | Gray |
 | ![Light gray swatch](src/images/colors/gray-light.svg) | Light Gray |
+| ![Lightest gray swatch](src/images/colors/gray-lightest.svg) | Lightest Gray |
 | ![Dark red swatch](src/images/colors/red-dark.svg) | Dark Red |
 | ![Red swatch](src/images/colors/red.svg) | Red |
 | ![Pink swatch](src/images/colors/pink.svg) | Pink |
@@ -38,10 +47,12 @@
 
 ```scss
 // SCSS Color Variables
+$black: #000000;
 $gray-dark: #1a1a1a;
 $gray-medium: #333;
-$gray: #4c5264;
-$gray-light: #efefef;
+$gray: #cccccc;
+$gray-light: #e5e5e5;
+$gray-lightest: #efefef;
 $red-dark: #a01d20;
 $red: #f43127;
 $pink: #f62459;
@@ -60,9 +71,10 @@ $violet: #9a88c5;
 ```css
 /* CSS Color Variables */
 :root {
+    --color-black: #000000;
     --color-gray-dark: #1a1a1a;
     --color-gray-medium: #333;
-    --color-gray: #4c5264;
+    --color-gray: #ccc;
     --color-gray-light: #efefef;
     --color-red-dark: #a01d20;
     --color-red: #f43127;
